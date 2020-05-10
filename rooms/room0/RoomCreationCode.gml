@@ -1,0 +1,1 @@
+room_speed = FRAME_RATE
