@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "a8221a95-6aa4-44f0-9b68-7a13990a2c46",
+            "Value": {
+                "id": "61d41686-ff64-43de-bbdb-2a8ba8ba6363",
+                "resourcePath": "scripts\\AddAnimationToEntity\\AddAnimationToEntity.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "95e9e950-07e1-4d9f-a2c5-75a76360ea33",
@@ -519,6 +527,14 @@
             }
         },
         {
+            "Key": "e98b01d5-b0e1-4901-9ced-be8118d7f153",
+            "Value": {
+                "id": "c607e1f0-7f37-4e92-bf07-949004e244b1",
+                "resourcePath": "scripts\\ENUMS\\ENUMS.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e9c88407-c2e0-418d-912e-307ff0db73ac",
             "Value": {
                 "id": "aa49fd09-8b05-4e5b-9c78-783223445797",
@@ -593,6 +609,7 @@
     ],
     "script_order": [
         "6915d46d-c632-4a82-963d-1bdfb503ab43",
+        "e98b01d5-b0e1-4901-9ced-be8118d7f153",
         "51a78c2a-0567-4b6e-ae06-ed1df9123f02",
         "28387c8c-5de4-4c4a-bd8f-1057021ab5fa",
         "fe445ba5-9553-410c-8e0d-7f41f07da8f7",
@@ -605,7 +622,8 @@
         "54348014-e68a-4bfd-9cc8-417adf6209bc",
         "e6813215-ae02-4c8d-9f87-2dbd1aad99ad",
         "9a9a5164-bdc1-4c44-a876-d1c830115777",
-        "5be7b375-74d3-4704-be39-127901760bfb"
+        "5be7b375-74d3-4704-be39-127901760bfb",
+        "a8221a95-6aa4-44f0-9b68-7a13990a2c46"
     ],
     "tutorial": ""
 }
