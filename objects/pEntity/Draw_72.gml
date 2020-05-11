@@ -1,3 +1,0 @@
-if(doAnimation) {
-	EntityAnimateSprite()	
-}

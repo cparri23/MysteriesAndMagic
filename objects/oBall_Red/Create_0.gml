@@ -1,8 +1,4 @@
 event_inherited();
 
-animationIdleLoopType = animationLoopType.pingPong
-animationIdleFrameDurationType = frameDurationType.constant
-idleFrameDuration = 100
-//idleFrameDurations = [500, 100, 100, 100, 100, 100, 500]
-
+AddAnimationToEntity(animationName.idle, sBall_Red, animationLoopType.pingPong, animationDurationType.constant, 100)
 InitalizeSpecifcEntityVariables();

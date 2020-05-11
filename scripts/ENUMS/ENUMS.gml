@@ -1,4 +1,5 @@
 enum animationName {
+	none,
 	idle,
 	runE, runNE, runN, runNW, runW, runSW, runS, runSE
 }
@@ -8,9 +9,13 @@ enum animationDataVariables {
 }
 
 enum animationLoopType {
-	none, normal, pingPong	
+	none, once, forward, pingPong	
 }
 
-enum frameDurationType {
+enum animationDurationType {
 	none, constant, specific	
+}
+
+enum gameStates {
+	none, inMenu, inCutscene, inTrail, inInteraction
 }
