@@ -7,16 +7,18 @@ speedWalk = 4.0;
 
 stopMe = false
 lookDistance = 20
-
-show_debug_message(bbox_right)
-show_debug_message(bbox_left)
-
-lookXOffset = ((bbox_right + bbox_left) / 2) - sprite_xoffset - x
-lookYOffset = ((bbox_top + bbox_bottom) / 2) - sprite_yoffset - y
-show_debug_message(lookXOffset)
-show_debug_message(lookYOffset)
-
 var _runFrameDuration = 75
+
+lookXOffset = ((bbox_right + bbox_left) / 2) - x
+lookYOffset = ((bbox_top + bbox_bottom) / 2)  - y
+
+show_debug_message(((bbox_right + bbox_left) / 2) - x)
+
+	show_debug_message("bb info")
+	show_debug_message(bbox_left)
+	show_debug_message(bbox_right)
+	show_debug_message(sprite_xoffset)
+	show_debug_message(x)
 
 //AddAnimationToEntity(animationName.idle, sLunaIdle, animationLoopType.forward, animationDurationType.constant, _runFrameDuration)
 AddSpriteToEntity(frameDataName.idle, sLunaIdle, ANGLES_EIGHT)
