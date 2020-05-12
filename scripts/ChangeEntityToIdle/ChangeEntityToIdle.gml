@@ -3,7 +3,6 @@
 
 switch idleType {
 	case drawIdleType.static:
-		show_debug_message("to idle statoc")
 		activeAnimation = frameDataName.idle
 		activeAnimationData = animations[activeAnimation]
 		activeAnimationSprite = activeAnimationData[frameDataVariables.sprite]
@@ -18,7 +17,6 @@ switch idleType {
 		RemoveSelfFromAnimationHandler()
 	break
 	case drawIdleType.directional:
-		show_debug_message("to idle direction")
 		activeAnimation = frameDataName.idle
 		activeAnimationData = animations[activeAnimation]
 		activeAnimationSprite = activeAnimationData[frameDataVariables.sprite]
@@ -31,7 +29,6 @@ switch idleType {
 		RemoveSelfFromAnimationHandler()
 	break
 	case drawIdleType.animated:
-		show_debug_message("to idle animated")
 		ChangeEntityAnimation(animationName.idle)
 	break
 }

@@ -1,23 +1,23 @@
 {
-    "id": "d539ba38-db51-4b63-891d-8856064ad020",
+    "id": "27d66484-1f2b-4dc8-b83c-c1bbe77285e3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oBall_Orange",
+    "name": "pInteractDirect",
     "eventList": [
         {
-            "id": "81beeeac-dfdc-4243-9020-bb563103acf9",
+            "id": "6e8be845-dbaa-4094-9d74-186cbe2b224f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "d539ba38-db51-4b63-891d-8856064ad020"
+            "eventtype": 3,
+            "m_owner": "27d66484-1f2b-4dc8-b83c-c1bbe77285e3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "27d66484-1f2b-4dc8-b83c-c1bbe77285e3",
+    "parentObjectId": "0694cbe1-fa84-488b-85d9-03c15e2d637c",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -32,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "c93305d3-56f5-4d89-b1ba-9507b568dae9",
+    "solid": false,
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

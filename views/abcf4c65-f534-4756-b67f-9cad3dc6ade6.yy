@@ -9,7 +9,8 @@
         "83301308-eece-49b3-af2b-31494c0d2f2a",
         "f2617fc6-2062-4760-badf-7a8ba2f714dc",
         "c00c18b0-be2f-449f-a2e3-e46d27ad77e1",
-        "4e26a427-6264-4ae1-8193-c000e4ab0014"
+        "4e26a427-6264-4ae1-8193-c000e4ab0014",
+        "10ab5663-cec5-4706-b406-9b0486926c5b"
     ],
     "filterType": "GMSprite",
     "folderName": "Test Resources",

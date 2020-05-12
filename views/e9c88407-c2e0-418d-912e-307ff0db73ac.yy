@@ -8,7 +8,8 @@
         "cbb2020d-e804-4cf0-ba5b-11b21e09c91a",
         "6eabaa43-e534-47b0-800d-fa9e36e25db5",
         "54348014-e68a-4bfd-9cc8-417adf6209bc",
-        "e6813215-ae02-4c8d-9f87-2dbd1aad99ad"
+        "e6813215-ae02-4c8d-9f87-2dbd1aad99ad",
+        "54fb5d90-62ba-49d9-baaf-166aa24949c8"
     ],
     "filterType": "GMScript",
     "folderName": "Event Scripts",

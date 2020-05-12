@@ -16,16 +16,13 @@ if(inputMagnitude > 0) {
 	moveAnimationName = GetAnimationNameFromDirection()
 
 	if(moveAnimationName != activeAnimation) {
-		show_debug_message("moveAnimationName: " + string(moveAnimationName))
-		show_debug_message("activeAnimation: " + string(activeAnimation))
 		ChangeEntityAnimation(moveAnimationName)
 	}
 
 	hSpeed_look = lengthdir_x(lookDistance, direction);
 	vSpeed_look = lengthdir_y(lookDistance, direction);
-
-	global.playerLookX = x + hSpeed_look;
-	global.playerLookY = y + vSpeed_look;
+	global.playerLookX = x + hSpeed_look + lookXOffset;
+	global.playerLookY = y + vSpeed_look + lookYOffset;
 	global.playerX = x;
 	global.playerY = y;
 	global.playerCanInteract = ! (global.lightInteraction || global.hardInteraction)

@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "10ab5663-cec5-4706-b406-9b0486926c5b",
+            "Value": {
+                "id": "4a17fa7b-5e3e-43b4-83e8-4bf1388fa296",
+                "resourcePath": "sprites\\sLookPoint\\sLookPoint.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1292f8cf-95ed-4ed1-8392-ac963b424116",
             "Value": {
                 "id": "d0da74b7-54a2-4d54-97a2-3598c42d3e9e",
@@ -108,6 +116,14 @@
                 "id": "84807355-aaaf-488b-8097-6319d1866289",
                 "resourcePath": "views\\27b7a77f-f35a-4d03-aa0a-ef5bc4e5fdc8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "27d66484-1f2b-4dc8-b83c-c1bbe77285e3",
+            "Value": {
+                "id": "2f119ec4-3d80-4b99-8b96-27ded815c5bf",
+                "resourcePath": "objects\\pInteractDirect\\pInteractDirect.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -211,6 +227,14 @@
             "Value": {
                 "id": "31eb263b-c202-4510-8418-4f57aaa1785e",
                 "resourcePath": "scripts\\UpdateDialogueBox\\UpdateDialogueBox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "54fb5d90-62ba-49d9-baaf-166aa24949c8",
+            "Value": {
+                "id": "c59e3a04-24ec-498d-b814-c06e8ea8e592",
+                "resourcePath": "scripts\\IsPlayerLookingAtMe\\IsPlayerLookingAtMe.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -807,6 +831,7 @@
         "6eabaa43-e534-47b0-800d-fa9e36e25db5",
         "54348014-e68a-4bfd-9cc8-417adf6209bc",
         "e6813215-ae02-4c8d-9f87-2dbd1aad99ad",
+        "54fb5d90-62ba-49d9-baaf-166aa24949c8",
         "86419a36-ab50-4bee-aa2e-08469368e295",
         "562cd495-e7ee-4113-b590-ffd08f647195",
         "5ba15532-c8f9-44e6-bd2e-ddc9e9ab3cbf",

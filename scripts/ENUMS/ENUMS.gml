@@ -36,6 +36,10 @@ enum idleFrameAngles {
 	none, diagonals, cardinal, all	
 }
 
+enum playerInteractLookType {
+	sprite, collisionMask	
+}
+
 enum gameStates {
 	none, inMenu, inCutscene, inTrail, inInteraction
 }
