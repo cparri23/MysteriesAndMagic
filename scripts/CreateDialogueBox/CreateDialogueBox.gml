@@ -7,8 +7,6 @@
 /// @param Text_name_array
 /// @param stringargs
 
-
-
 textbox = instance_create_layer(0, 0, "Instances", ouiDialogueBox)
 textbox.text = argument0
 textbox.text_duration_type = argument1

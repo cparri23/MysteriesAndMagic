@@ -4,6 +4,18 @@ enum animationName {
 	runE, runNE, runN, runNW, runW, runSW, runS, runSE
 }
 
+enum frameDataName {
+	none, idle	
+}
+
+enum frameDataVariables {
+	sprite, angles
+}
+
+enum frameAngleTypes {
+	none, diagonals, cardinal, eight
+}
+
 enum animationDataVariables {
 	sprite, loopType, frameDurationType, frameDurationData, 
 }
@@ -14,6 +26,14 @@ enum animationLoopType {
 
 enum animationDurationType {
 	none, constant, specific	
+}
+
+enum drawIdleType {
+	none, static, directional, animated, animatedDirectional	
+}
+
+enum idleFrameAngles {
+	none, diagonals, cardinal, all	
 }
 
 enum gameStates {

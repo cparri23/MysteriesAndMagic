@@ -20,4 +20,4 @@ else {
 	animations[argument0] = _animationData
 }
 
-doAnimation = true
+doDraw = true

@@ -19,11 +19,23 @@ else {
 
 activeAnimationTotalFrames = sprite_get_number(activeAnimationSprite)
 sprite_index = activeAnimationSprite
+image_speed = 0
 
-var _self = object_index
+
+	
+
+var _self = id
 
 //Should be own function
 with (AnimationHandler) {
-	ds_list_add(animateObjects, _self)	
-	amountOfObjectsToDraw = ds_list_size(animateObjects)
+	var _objectIndex = ds_list_find_index(animateObjects, _self)
+	var _objectIsBeingAnimated = (_objectIndex >= 0)
+	if (!_objectIsBeingAnimated) {
+		ds_list_add(animateObjects, _self)
+		amountOfObjectsToDraw = ds_list_size(animateObjects)
+		localFrame = 0
+		timeOnActiveFrame = 0
+		playAnimationForward = true
+	}
+	
 }

@@ -1,4 +1,4 @@
-if(doAnimation) {
+if(doDraw) {
 	visible = true
 	image_speed = 0
 	//If idle type is not animated, then add to draw with X direction
@@ -11,9 +11,8 @@ if(doAnimation) {
 			exit
 		}
 	}
-	show_debug_message(animations)
-	show_debug_message(activeAnimation)
-	ChangeEntityAnimation(activeAnimation)
+	ChangeEntityToIdle()
+	//ChangeEntityAnimation(activeAnimation)
 	
 	localFrame = 0
 	timeOnActiveFrame = 0
