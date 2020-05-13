@@ -2,7 +2,7 @@
     "id": "e366860b-ea7c-40da-9bc5-33a76211f3d2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGlobals",
+    "name": "GlobalHandler",
     "eventList": [
         {
             "id": "daff11e6-4e12-4d84-868d-4ab059fa69b4",
@@ -12,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "e366860b-ea7c-40da-9bc5-33a76211f3d2"
+        },
+        {
+            "id": "a7439d76-05ac-42a3-b64a-feb7fc749462",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "e366860b-ea7c-40da-9bc5-33a76211f3d2"
         }
     ],

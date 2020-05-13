@@ -14,10 +14,15 @@ _textData[textVariables.text] = argument0
 	
 //}
 
+if(ds_queue_size(global.textQueue) == 0) {
+	show_debug_message("setting player to in event")
+	global.playerInEvent = true			
+}
+
 textbox.textData = _textData
 with(textbox) {
 	ds_queue_enqueue(global.textQueue, id)
-	show_debug_message("Current number of text events: " + string(ds_queue_size(global.textQueue)))
+	//show_debug_message("Current number of text events: " + string(ds_queue_size(global.textQueue)))
 }
 
 return textbox
