@@ -1,7 +1,7 @@
 	if(just_activated) {
 		just_activated = false
 		if(!wait_till_done) {
-			ds_list_delete(global.events, 0)
+			ds_list_delete(global.eventQueue, 0)
 			global.eventInProgress = false
 		}
 	}

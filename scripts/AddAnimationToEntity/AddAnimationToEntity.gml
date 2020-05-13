@@ -7,10 +7,10 @@
 
 var _animationData = []
 
-_animationData[animationDataVariables.sprite] = argument1
-_animationData[animationDataVariables.loopType] = argument2
-_animationData[animationDataVariables.frameDurationType] = argument3
-_animationData[animationDataVariables.frameDurationData] = argument4
+_animationData[animationVariables.sprite] = argument1
+_animationData[animationVariables.loopType] = argument2
+_animationData[animationVariables.frameDurationType] = argument3
+_animationData[animationVariables.frameDurationData] = argument4
 
 if(!is_undefined(animations)) {
 	animations[argument0] = _animationData

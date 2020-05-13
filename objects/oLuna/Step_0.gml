@@ -18,7 +18,7 @@ if(inputMagnitude > 0) {
 	if(moveAnimationName != activeAnimation) {
 		ChangeEntityAnimation(moveAnimationName)
 	}
-
+	
 	hSpeed_look = lengthdir_x(lookDistance, direction);
 	vSpeed_look = lengthdir_y(lookDistance, direction);
 	lookXOffset = ((bbox_right + bbox_left) / 2) - x
@@ -28,7 +28,7 @@ if(inputMagnitude > 0) {
 	global.playerLookY = y + vSpeed_look + lookYOffset;
 	global.playerX = x;
 	global.playerY = y;
-	global.playerCanInteract = ! (global.lightInteraction || global.hardInteraction)
+	//global.playerCanInteract = ! (global.lightInteraction || global.hardInteraction)
 
 
 	//stopMe = false

@@ -1,8 +1,8 @@
 {
-    "id": "6d48be8e-6aa8-48db-b65e-6d14959e60b3",
+    "id": "8dcab532-2fb9-460d-b816-c6bc015ebb51",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "RemoveSelfFromAnimationHandler",
+    "name": "TextHandler_AddToQueue",
     "IsCompatibility": false,
     "IsDnD": false
 }

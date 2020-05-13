@@ -4,10 +4,10 @@
 var _newAnimation = argument0
 
 activeAnimationData = animations[_newAnimation]
-activeAnimationSprite = activeAnimationData[animationDataVariables.sprite]
-activeAnimationLoopType = activeAnimationData[animationDataVariables.loopType]
-activeAnimationDurationType = activeAnimationData[animationDataVariables.frameDurationType]
-activeAnimationDurationData = activeAnimationData[animationDataVariables.frameDurationData]
+activeAnimationSprite = activeAnimationData[animationVariables.sprite]
+activeAnimationLoopType = activeAnimationData[animationVariables.loopType]
+activeAnimationDurationType = activeAnimationData[animationVariables.frameDurationType]
+activeAnimationDurationData = activeAnimationData[animationVariables.frameDurationData]
 	
 	
 if(activeAnimationDurationType == animationDurationType.specific) {

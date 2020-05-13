@@ -1,33 +1,38 @@
-evt_type = "Textbox" 
-active = false
-just_activated = false
+textData[textVariables.text] = EMPTY_STRING
 
-image_speed = 0
+textData[textVariables.doDuration] = true
+textData[textVariables.durationType] = textDurationType.constant 
+textData[textVariables.durationData] = TEXT_DURATION_NORMAL
 
-win_w = room_width
-win_h = room_height
-im_w = sprite_width
-im_h = sprite_height
-x = (win_w - im_w) / 2
-y = win_h - im_h
-margin = 10
+textData[textVariables.doName] = false
+textData[textVariables.nameType] = textNameType.none
+textData[textVariables.nameData] = undefined
+textData[textVariables.nameBank] = undefined
 
-txt_cursor_x = win_w - margin - sprite_get_width(uiTextCursor) 
-txt_cursor_y = win_h - margin - sprite_get_height(uiTextCursor)
-
-// Create pointer
-// Default values
-text = ["This is interesting..."]
-text_duration = FAST_TEXT_DURATION
-text_name_type = "Single"
-text_name = ""
-text_name_array = []
-
-
-bufferEnter = false
-drawCursor = false
-dispPage = 0
 dispLetter = 0
-durExhaused = 0
+dispPage = 0
+timeOnCurrentLetter = 0
+letterDuration = 0 
+bufferEnter = false
 
-global.hardInteraction = true
+textBackSprite = uiTextBox
+textCursorSprite = uiTextCursor
+textBackMargin = 10
+
+var window_width = room_width
+var window_height = room_height
+var textBack_width = sprite_get_width(textBackSprite)
+var textBack_height = sprite_get_height(textBackSprite)
+
+var cursor_width = sprite_get_width(textCursorSprite)
+var cursor_height = sprite_get_height(textCursorSprite)
+
+cursorX = window_width - textBackMargin - cursor_width
+cursorY = window_height - textBackMargin - cursor_height
+cursorExists = false
+
+drawStringX = ((window_width - textBack_width) / 2) + textBackMargin
+drawStringY = window_height - textBack_height + textBackMargin
+drawStringLineSpace = 18
+drawStringLineMaxLength = textBack_width - (2 * textBackMargin)
+show_debug_message(drawStringLineMaxLength)

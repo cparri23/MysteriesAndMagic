@@ -2,7 +2,7 @@
 
 
 switch idleType {
-	case drawIdleType.static:
+	case animationIdleType.static:
 		activeAnimation = frameDataName.idle
 		activeAnimationData = animations[activeAnimation]
 		activeAnimationSprite = activeAnimationData[frameDataVariables.sprite]
@@ -14,9 +14,9 @@ switch idleType {
 		else {
 			image_index = 0
 		}
-		RemoveSelfFromAnimationHandler()
+		AnimationHandler_RemoveSelf()
 	break
-	case drawIdleType.directional:
+	case animationIdleType.directional:
 		activeAnimation = frameDataName.idle
 		activeAnimationData = animations[activeAnimation]
 		activeAnimationSprite = activeAnimationData[frameDataVariables.sprite]
@@ -26,9 +26,9 @@ switch idleType {
 		image_index = FindNearestIndex(activeAnimationAngles, direction)
 		
 		//Should still work if not in the list
-		RemoveSelfFromAnimationHandler()
+		AnimationHandler_RemoveSelf()
 	break
-	case drawIdleType.animated:
+	case animationIdleType.animated:
 		ChangeEntityAnimation(animationName.idle)
 	break
 }

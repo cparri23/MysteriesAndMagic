@@ -1,0 +1,1 @@
+draw_sprite(textBackSprite, 1, drawTextBackX, drawTextBackY)

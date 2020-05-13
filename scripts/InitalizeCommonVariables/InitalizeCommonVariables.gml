@@ -5,4 +5,4 @@ animations = undefined
 animations = undefined
 activeAnimation = undefined
 
-idleType = drawIdleType.static
+idleType = animationIdleType.static

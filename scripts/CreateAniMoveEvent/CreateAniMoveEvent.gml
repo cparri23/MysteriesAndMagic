@@ -75,4 +75,4 @@
 
 	}
 	
-	ds_list_add(global.events, aniMoveEvent)
+	ds_list_add(global.eventQueue, aniMoveEvent)

@@ -5,16 +5,6 @@
     "name": "EventHandler",
     "eventList": [
         {
-            "id": "37ec7c7f-1251-4354-adfc-355e8c3dd400",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "398d3fa4-748f-47a3-9006-0c822f13d720"
-        },
-        {
             "id": "641155c7-e1a9-42f5-96a6-6fddbf1f3b3f",
             "modelName": "GMEvent",
             "mvc": "1.0",

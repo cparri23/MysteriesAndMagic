@@ -16,7 +16,7 @@ enum frameAngleTypes {
 	none, diagonals, cardinal, eight
 }
 
-enum animationDataVariables {
+enum animationVariables {
 	sprite, loopType, frameDurationType, frameDurationData, 
 }
 
@@ -28,11 +28,11 @@ enum animationDurationType {
 	none, constant, specific	
 }
 
-enum drawIdleType {
+enum animationIdleType {
 	none, static, directional, animated, animatedDirectional	
 }
 
-enum idleFrameAngles {
+enum animationIdleFrameAngles {
 	none, diagonals, cardinal, all	
 }
 
@@ -40,6 +40,17 @@ enum playerInteractLookType {
 	sprite, collisionMask	
 }
 
+enum textVariables {
+	text, doDuration, durationType, durationData, doName, nameType, nameData, nameBank
+}
+
+enum textDurationType {
+	none, constant, specific	
+}
+
+enum textNameType {
+	none, constant, specific	
+}
 enum gameStates {
 	none, inMenu, inCutscene, inTrail, inInteraction
 }

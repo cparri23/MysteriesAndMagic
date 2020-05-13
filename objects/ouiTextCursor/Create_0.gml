@@ -3,6 +3,8 @@
 
 // Inherit the parent event
 event_inherited();
-idleType = "PingPong"
-animationSpeed = [.500, .150, .100, .50, .100, .150, .500]
-frameIncrement = 1
+
+AddAnimationToEntity(animationName.idle, uiTextCursor, animationLoopType.pingPong, animationDurationType.constant, 100)
+idleType = animationIdleType.animated
+
+InitalizeSpecifcEntityVariables();
