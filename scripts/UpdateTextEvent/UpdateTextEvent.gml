@@ -14,6 +14,7 @@ if (hitEnter) {
 	else {
 		dispPage++
 		if(dispPage > array_length_1d(_text) - 1) {
+			show_debug_message("removing self from text handler")
 			TextHandler_Dequeue()
 			instance_destroy(self)
 			instance_destroy(cursor)

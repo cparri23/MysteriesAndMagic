@@ -1,1 +1,0 @@
-ds_queue_dequeue(global.textQueue)
