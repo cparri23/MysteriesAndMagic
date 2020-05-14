@@ -3,6 +3,7 @@
 	
 var _newAnimation = argument0
 
+activeAnimation = _newAnimation
 activeAnimationData = animations[_newAnimation]
 activeAnimationSprite = activeAnimationData[animationVariables.sprite]
 activeAnimationLoopType = activeAnimationData[animationVariables.loopType]
@@ -20,9 +21,6 @@ else {
 activeAnimationTotalFrames = sprite_get_number(activeAnimationSprite)
 sprite_index = activeAnimationSprite
 image_speed = 0
-
-
-	
 
 var _self = id
 

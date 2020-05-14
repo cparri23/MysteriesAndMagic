@@ -1,6 +1,7 @@
 enum animationName {
 	none,
 	idle,
+	custom_1, custom_2, custom_3,
 	runE, runNE, runN, runNW, runW, runSW, runS, runSE
 }
 

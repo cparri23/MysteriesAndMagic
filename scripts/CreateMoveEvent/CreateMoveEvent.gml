@@ -36,4 +36,4 @@
 		distanceTraveled = 0
 	}
 	
-	
+	return moveEvent
