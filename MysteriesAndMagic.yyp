@@ -191,14 +191,6 @@
             }
         },
         {
-            "Key": "3183ced5-c3b7-4ce6-ac94-c78ecfd88298",
-            "Value": {
-                "id": "98f6a4d8-3fea-4d59-8fd6-61a1a9fad8b7",
-                "resourcePath": "scripts\\TextHandler_Dequeue\\TextHandler_Dequeue.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "36c42e3b-fd59-44ec-824b-22a1e061f592",
             "Value": {
                 "id": "519cf0a8-6a43-45ac-9bb6-22f91270b46d",
@@ -423,6 +415,14 @@
             }
         },
         {
+            "Key": "6ffee46b-c6cd-46f1-b6ac-92fc5019ee5c",
+            "Value": {
+                "id": "ba622fd4-871f-4f47-a65d-10b4691d0862",
+                "resourcePath": "scripts\\TextEvent_SetWaitForMe\\TextEvent_SetWaitForMe.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "77443d80-c2ac-4a38-9fda-6ac3285d4cd5",
             "Value": {
                 "id": "2688ffd4-faaa-4ab9-811d-49509d5bc390",
@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "8572256e-a080-4394-88d6-291944ef80bc",
+            "Value": {
+                "id": "8f4870b1-d4b7-49ce-9b87-3d9b1a6972c0",
+                "resourcePath": "scripts\\EventHandler_CheckNextEvent_PlayerInEvent\\EventHandler_CheckNextEvent_PlayerInEvent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "86419a36-ab50-4bee-aa2e-08469368e295",
             "Value": {
                 "id": "172c75a1-29b2-412e-a479-5e3f884c2f75",
@@ -468,14 +476,6 @@
                 "id": "0b1f69f7-eeaa-4284-a4b7-66a878f2f195",
                 "resourcePath": "sprites\\uiTextBox\\uiTextBox.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "8dcab532-2fb9-460d-b816-c6bc015ebb51",
-            "Value": {
-                "id": "1a8c3e90-7d3f-44ef-a1a8-932a4db473f7",
-                "resourcePath": "scripts\\TextHandler_AddToQueue\\TextHandler_AddToQueue.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1023,6 +1023,14 @@
             }
         },
         {
+            "Key": "f694e3ca-37ac-48f9-adcf-cdd8b30bb848",
+            "Value": {
+                "id": "221bbc25-c8ff-4b23-8f7e-2462a1cd076f",
+                "resourcePath": "scripts\\TextEvent_End\\TextEvent_End.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f7ed4fc7-b3a4-4ca1-ab28-4e251889bded",
             "Value": {
                 "id": "2af780c0-eb2a-40ec-82e2-b767dc69cad8",
@@ -1073,10 +1081,12 @@
         "af7bc92b-e17b-4818-99f6-ae7c1869b538",
         "e67f15ac-158b-4537-8af0-fe564d2cefeb",
         "df465659-e839-4898-99f8-ac24e814abae",
+        "6ffee46b-c6cd-46f1-b6ac-92fc5019ee5c",
         "54348014-e68a-4bfd-9cc8-417adf6209bc",
         "9fc3b522-6d4b-4ca9-aacd-e81dddea017a",
         "9a3052e6-c251-4e79-9f0a-4a9e7e43dc1b",
         "cb532587-f2ab-4314-aae1-0c4f08d6de35",
+        "f694e3ca-37ac-48f9-adcf-cdd8b30bb848",
         "54fb5d90-62ba-49d9-baaf-166aa24949c8",
         "e6813215-ae02-4c8d-9f87-2dbd1aad99ad",
         "a7c8ba89-5e0e-49d3-8df1-c7f752802cda",
@@ -1092,9 +1102,8 @@
         "b5c91ca5-0ff0-40ae-8462-c889213ee849",
         "ebd58a3c-9e67-48c9-93cc-907f567145a9",
         "6d48be8e-6aa8-48db-b65e-6d14959e60b3",
-        "8dcab532-2fb9-460d-b816-c6bc015ebb51",
         "6f4375fd-dac5-4238-aa07-c5e0255615d8",
-        "3183ced5-c3b7-4ce6-ac94-c78ecfd88298"
+        "8572256e-a080-4394-88d6-291944ef80bc"
     ],
     "tutorial": ""
 }

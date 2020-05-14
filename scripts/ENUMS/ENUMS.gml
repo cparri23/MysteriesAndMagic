@@ -52,6 +52,11 @@ enum textDurationType {
 enum textNameType {
 	none, constant, specific	
 }
+
 enum gameStates {
 	none, inMenu, inCutscene, inTrail, inInteraction
 }
+
+enum eventType {
+	text, move
+}	

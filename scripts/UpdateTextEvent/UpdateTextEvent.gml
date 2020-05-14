@@ -17,8 +17,7 @@ if(!doneProgressingText) {
 		else {
 			if(_finalPage) {
 				if(!textData[textVariables.doChoices]) {
-					TextHandler_Dequeue()
-					instance_destroy(self)
+					TextEvent_End()
 					instance_destroy(cursor)
 					exit
 				}

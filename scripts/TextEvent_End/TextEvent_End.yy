@@ -1,8 +1,8 @@
 {
-    "id": "3183ced5-c3b7-4ce6-ac94-c78ecfd88298",
+    "id": "f694e3ca-37ac-48f9-adcf-cdd8b30bb848",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "TextHandler_Dequeue",
+    "name": "TextEvent_End",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -1,8 +1,8 @@
 {
-    "id": "8dcab532-2fb9-460d-b816-c6bc015ebb51",
+    "id": "6ffee46b-c6cd-46f1-b6ac-92fc5019ee5c",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "TextHandler_AddToQueue",
+    "name": "TextEvent_SetWaitForMe",
     "IsCompatibility": false,
     "IsDnD": false
 }

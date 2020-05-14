@@ -32,6 +32,6 @@ for(i = 0; i < _numberOfChoices; i++) {
 
 if(_releasedEnter) {
 	PerformObjectEvent(parentID, _choiceEvents[textChoice_cursor_selected])
-	TextHandler_Dequeue()
+	TextEvent_End()
 	instance_destroy(self)
 }
