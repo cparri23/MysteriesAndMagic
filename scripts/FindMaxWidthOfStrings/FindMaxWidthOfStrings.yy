@@ -1,8 +1,8 @@
 {
-    "id": "9fc3b522-6d4b-4ca9-aacd-e81dddea017a",
+    "id": "a6688a93-7a13-4fac-b56b-9e7467248a51",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "UpdateTextEvent_UpdateDuration",
+    "name": "FindMaxWidthOfStrings",
     "IsCompatibility": false,
     "IsDnD": false
 }

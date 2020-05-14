@@ -41,7 +41,8 @@ enum playerInteractLookType {
 }
 
 enum textVariables {
-	text, doDuration, durationType, durationData, doName, nameType, nameData, nameBank
+	text, doDuration, durationType, durationData, doName, nameType, nameData, nameBank,
+	doChoices, choiceData, choiceEvents
 }
 
 enum textDurationType {

@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "2f222687-d780-49ee-81bf-74d4b4889808",
+            "Value": {
+                "id": "4ff0461b-250d-4a94-80a6-95a75407b85c",
+                "resourcePath": "sprites\\uiChoiceCursor\\uiChoiceCursor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "302537c3-95c9-4b78-8945-58cc63450b06",
             "Value": {
                 "id": "ed6fc17f-836b-4f4b-8089-d4eb410e138f",
@@ -212,6 +220,14 @@
                 "id": "87ce20db-f306-4c20-817a-73f3e88a632f",
                 "resourcePath": "objects\\EventHandler\\EventHandler.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3a361704-545e-43a7-aa05-0a2dc0720e3d",
+            "Value": {
+                "id": "3971dd52-3072-4a68-9049-693508fca526",
+                "resourcePath": "views\\3a361704-545e-43a7-aa05-0a2dc0720e3d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -319,6 +335,22 @@
             }
         },
         {
+            "Key": "5fc0340d-2fef-4fa8-9371-711d186425af",
+            "Value": {
+                "id": "de1b8e00-b6bf-4527-a131-52898bf9a2eb",
+                "resourcePath": "sprites\\uiChoiceEdgeRight\\uiChoiceEdgeRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "60bdc716-4a0b-4cb4-8b99-739536e6e7f4",
+            "Value": {
+                "id": "0a300ffb-3eb3-4a89-8cbd-a70d9a8d93ef",
+                "resourcePath": "views\\60bdc716-4a0b-4cb4-8b99-739536e6e7f4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "628ab7fc-4eb5-4b9f-bf58-b912d209ed1a",
             "Value": {
                 "id": "76c32caf-2ffa-4a79-b203-04fc75a030a6",
@@ -372,6 +404,14 @@
                 "id": "7915a1d9-8d78-4371-9ccf-27337f086e33",
                 "resourcePath": "scripts\\CreateTextEvent\\CreateTextEvent.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6ebdb837-40ae-4e1b-813e-e91fae8b282e",
+            "Value": {
+                "id": "01b5d8bf-9833-4d12-8baa-ca2374b2a464",
+                "resourcePath": "views\\6ebdb837-40ae-4e1b-813e-e91fae8b282e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -466,7 +506,7 @@
             "Key": "9a3052e6-c251-4e79-9f0a-4a9e7e43dc1b",
             "Value": {
                 "id": "8d136d1d-6692-40ee-9a60-a2e099fc6169",
-                "resourcePath": "scripts\\UpdateTextEvent_UpdateName\\UpdateTextEvent_UpdateName.yy",
+                "resourcePath": "scripts\\TextEvent_UpdateName\\TextEvent_UpdateName.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -490,7 +530,7 @@
             "Key": "9fc3b522-6d4b-4ca9-aacd-e81dddea017a",
             "Value": {
                 "id": "15b6532e-b89a-4f98-9755-ddf3a301ed2e",
-                "resourcePath": "scripts\\UpdateTextEvent_UpdateDuration\\UpdateTextEvent_UpdateDuration.yy",
+                "resourcePath": "scripts\\TextEvent_UpdateDuration\\TextEvent_UpdateDuration.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -516,6 +556,22 @@
                 "id": "c394eb8c-36e1-46c6-867c-dd849b94b1aa",
                 "resourcePath": "objects\\MoveEvent\\MoveEvent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a6688a93-7a13-4fac-b56b-9e7467248a51",
+            "Value": {
+                "id": "3e87ffee-c10b-48aa-9b5e-4ceecba2ecf4",
+                "resourcePath": "scripts\\FindMaxWidthOfStrings\\FindMaxWidthOfStrings.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a76b80b0-e789-4f99-bd87-b860f67e9ba0",
+            "Value": {
+                "id": "be542ff7-41e9-4ce3-8621-37a39a7a6861",
+                "resourcePath": "sprites\\sChoiceCursor\\sChoiceCursor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -655,11 +711,27 @@
             }
         },
         {
+            "Key": "c1c4efe1-922a-409c-ad83-72b70e357b96",
+            "Value": {
+                "id": "9be1d5dd-47f4-437e-97bb-334fb4c2cce3",
+                "resourcePath": "scripts\\PerformObjectEvent\\PerformObjectEvent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c2fee45a-9d5b-4dd4-8e35-8d4dc0b4a869",
             "Value": {
                 "id": "96918f49-3cb6-4ebb-92aa-7fac044efc73",
                 "resourcePath": "scripts\\FindNearestIndex\\FindNearestIndex.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c57cde47-3e9e-482d-b0fd-a0253566eefb",
+            "Value": {
+                "id": "beafc80f-da9d-4cfa-93ab-3d1345916771",
+                "resourcePath": "sprites\\uiChoiceBody\\uiChoiceBody.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -684,6 +756,14 @@
                 "id": "59b0e430-c9e1-4aaf-8f95-9299ee3ad125",
                 "resourcePath": "sprites\\sLunaIdle\\sLunaIdle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cb532587-f2ab-4314-aae1-0c4f08d6de35",
+            "Value": {
+                "id": "082bb597-a569-4dae-abcf-db84231b6989",
+                "resourcePath": "scripts\\TextEvent_UpdateChoices\\TextEvent_UpdateChoices.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -767,6 +847,14 @@
             }
         },
         {
+            "Key": "df465659-e839-4898-99f8-ac24e814abae",
+            "Value": {
+                "id": "f55d0d00-a048-47dd-9c97-56bab4ce70b5",
+                "resourcePath": "scripts\\TextEvent_AddChoices\\TextEvent_AddChoices.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "df8bee02-79c3-4c49-92c5-e4cfba0d5839",
             "Value": {
                 "id": "20a5c23d-6eee-4ebb-a2e4-5ce8bb162233",
@@ -847,6 +935,14 @@
             }
         },
         {
+            "Key": "ebd58a3c-9e67-48c9-93cc-907f567145a9",
+            "Value": {
+                "id": "c72e739d-e963-4fab-a77d-f118d38bc97b",
+                "resourcePath": "scripts\\DrawUISizeableWindow\\DrawUISizeableWindow.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ee08be4b-ef05-4c8b-9f03-55dea49565d7",
             "Value": {
                 "id": "b0e84689-cdcc-444b-ad4a-c1e6269b4295",
@@ -891,6 +987,14 @@
             "Value": {
                 "id": "000532a8-68e0-4553-88c1-f3d531bc7355",
                 "resourcePath": "sprites\\sBall_Purple\\sBall_Purple.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f2da61bd-0ef5-4f41-9b5f-bb7aebd97bf2",
+            "Value": {
+                "id": "b5c3294a-87b7-4884-8925-1d5dbd09271c",
+                "resourcePath": "sprites\\uiChoiceEdgeLeft\\uiChoiceEdgeLeft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -960,15 +1064,19 @@
         "94fd0e8a-6cb2-4e44-b092-fb38f3ca7e8d",
         "28387c8c-5de4-4c4a-bd8f-1057021ab5fa",
         "fe445ba5-9553-410c-8e0d-7f41f07da8f7",
+        "c1c4efe1-922a-409c-ad83-72b70e357b96",
         "d420dfaf-7bd2-45e0-bce6-c72ba3c0f33b",
         "36f7cb33-4048-4b09-afad-7c08016f2250",
         "c2fee45a-9d5b-4dd4-8e35-8d4dc0b4a869",
+        "a6688a93-7a13-4fac-b56b-9e7467248a51",
         "6eabaa43-e534-47b0-800d-fa9e36e25db5",
         "af7bc92b-e17b-4818-99f6-ae7c1869b538",
         "e67f15ac-158b-4537-8af0-fe564d2cefeb",
+        "df465659-e839-4898-99f8-ac24e814abae",
         "54348014-e68a-4bfd-9cc8-417adf6209bc",
         "9fc3b522-6d4b-4ca9-aacd-e81dddea017a",
         "9a3052e6-c251-4e79-9f0a-4a9e7e43dc1b",
+        "cb532587-f2ab-4314-aae1-0c4f08d6de35",
         "54fb5d90-62ba-49d9-baaf-166aa24949c8",
         "e6813215-ae02-4c8d-9f87-2dbd1aad99ad",
         "a7c8ba89-5e0e-49d3-8df1-c7f752802cda",
@@ -982,6 +1090,7 @@
         "2af7be99-f996-4a28-a834-45acf931c936",
         "b3fae1e7-6130-444c-8df8-57ee32ba2bdf",
         "b5c91ca5-0ff0-40ae-8462-c889213ee849",
+        "ebd58a3c-9e67-48c9-93cc-907f567145a9",
         "6d48be8e-6aa8-48db-b65e-6d14959e60b3",
         "8dcab532-2fb9-460d-b816-c6bc015ebb51",
         "6f4375fd-dac5-4238-aa07-c5e0255615d8",

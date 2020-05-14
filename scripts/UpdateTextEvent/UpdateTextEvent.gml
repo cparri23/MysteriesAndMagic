@@ -1,46 +1,67 @@
 var hitEnter = keyboard_check_released(vk_enter)
-
 //Must be prevent interaction from skipping first text crawl
-if (!bufferEnter && hitEnter) {
-	bufferEnter = true
-	hitEnter = false
-}
+//if (!bufferEnter && hitEnter) {
+//	bufferEnter = true
+//	hitEnter = false
+//}
 
 var _text = textData[textVariables.text]
-if (hitEnter) {
-	if(dispLetter < string_length(_text[dispPage])) {
-		dispLetter = string_length(_text[dispPage]) - 1
-	}
-	else {
-		dispPage++
-		if(dispPage > array_length_1d(_text) - 1) {
-			show_debug_message("removing self from text handler")
-			TextHandler_Dequeue()
-			instance_destroy(self)
-			instance_destroy(cursor)
-			exit
+var _writingLetters = dispLetter < string_length(_text[dispPage])
+var _finalPage = (dispPage >= (array_length_1d(_text) - 1))
+
+if(!doneProgressingText) {
+	if (hitEnter) {
+		if(_writingLetters) {
+			dispLetter = string_length(_text[dispPage]) - 1
 		}
-		//Set name here
-		UpdateTextEvent_UpdateDuration()
-		dispLetter = 0
+		else {
+			if(_finalPage) {
+				if(!textData[textVariables.doChoices]) {
+					TextHandler_Dequeue()
+					instance_destroy(self)
+					instance_destroy(cursor)
+					exit
+				}
+				else {
+					show_debug_message("dialogue done progressing")
+					doneProgressingText = true	
+				}
+			}
+			else {
+				dispPage++
+				TextEvent_UpdateName()
+				TextEvent_UpdateDuration()
+				dispLetter = 0
+			}
 		cursorExists = false
 		instance_destroy(cursor)
+		
+		}
 	}
-}
-if (dispLetter < string_length(_text[dispPage])) {
+
+	if (_writingLetters) {
 		timeOnCurrentLetter += FRAME_DURATION
 		if (timeOnCurrentLetter >= letterDuration) {
 			timeOnCurrentLetter -= letterDuration
 			dispLetter++;
 		}
+	}
+	else {
+		if(cursorExists == false && !doneProgressingText) {
+			cursor = instance_create_layer(cursorX, cursorY, "Instances", ouiTextCursor)
+			cursorExists = true
+		}
+	}
 }
 else {
-	if(cursorExists == false) {
-		cursor = instance_create_layer(cursorX, cursorY, "Instances", ouiTextCursor)
-		cursorExists = true
-	}
+	//show_debug_message("update choices")
+	TextEvent_UpdateChoices()	
 }
 
 drawString = string_copy(_text[dispPage], 0, dispLetter)
 draw_set_font(TimesNewPixel)
 draw_text_ext(drawStringX, drawStringY, drawString, drawStringLineSpace, drawStringLineMaxLength)
+
+if(textData[textVariables.doName]) {
+	draw_text(drawNameX, drawNameY, drawName)
+}

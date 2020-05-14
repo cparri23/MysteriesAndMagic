@@ -2,3 +2,4 @@
 // You can write your code in this editor
 event_inherited()
 start_interaction = false;
+passiveEventID = 0

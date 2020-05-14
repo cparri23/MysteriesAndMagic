@@ -3,10 +3,23 @@
 ///@params durationData
 
 var _textEvent = argument0
-_textEvent.textData[textVariables.durationType] = argument1
-_textEvent.textData[textVariables.durationData] = argument2
+var _durationType = argument1
+var _durationData = argument2
+
+_textEvent.textData[textVariables.durationType] = _durationType
+_textEvent.textData[textVariables.durationData] = _durationData
 _textEvent.textData[textVariables.doDuration] = true
 
-if(argument1 == textDurationType.constant) {
-	currentPageDuration = argument2	
+show_debug_message(_textEvent.textData[textVariables.doName])
+
+switch _durationType {
+	case textDurationType.constant:
+		_textEvent.letterDuration = _durationData
+		break
+	case textDurationType.specific:
+		_textEvent.letterDuration = _durationData[0]
+		break
+	default:
+		_textEvent.letterDuration = TEXT_DURATION_NORMAL
+	
 }

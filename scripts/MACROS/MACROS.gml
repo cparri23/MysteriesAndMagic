@@ -10,3 +10,4 @@
 #macro ANGLES_DIAGONAL [45, 135, 225, 315]
 #macro ANGLES_EIGHT [0, 45, 90, 135, 180, 225, 270, 315]
 
+#macro TEXT_EVENT_FONT TimesNewPixel 

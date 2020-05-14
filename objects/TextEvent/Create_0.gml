@@ -1,3 +1,5 @@
+show_debug_message("create script for text event run")
+
 textData[textVariables.text] = EMPTY_STRING
 
 textData[textVariables.doDuration] = true
@@ -9,20 +11,26 @@ textData[textVariables.nameType] = textNameType.none
 textData[textVariables.nameData] = undefined
 textData[textVariables.nameBank] = undefined
 
+textData[textVariables.doChoices] = false
+textData[textVariables.choiceData] = undefined
+textData[textVariables.choiceEvents] = undefined
+
 dispLetter = 0
 dispPage = 0
 timeOnCurrentLetter = 0
 letterDuration = 0 
 bufferEnter = false
+doneProgressingText = false
 
 textBackSprite = uiTextBox
 textCursorSprite = uiTextCursor
 textBackMargin = 10
+nameMargin = 5
 
 var window_width = room_width
 var window_height = room_height
-var textBack_width = sprite_get_width(textBackSprite)
-var textBack_height = sprite_get_height(textBackSprite)
+textBack_width = sprite_get_width(textBackSprite)
+textBack_height = sprite_get_height(textBackSprite)
 
 var cursor_width = sprite_get_width(textCursorSprite)
 var cursor_height = sprite_get_height(textCursorSprite)
@@ -35,4 +43,6 @@ drawStringX = ((window_width - textBack_width) / 2) + textBackMargin
 drawStringY = window_height - textBack_height + textBackMargin
 drawStringLineSpace = 18
 drawStringLineMaxLength = textBack_width - (2 * textBackMargin)
-show_debug_message(drawStringLineMaxLength)
+
+drawNameX = ((window_width - textBack_width) / 2) + nameMargin
+drawNameY = window_height - textBack_height - nameMargin

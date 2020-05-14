@@ -3,3 +3,5 @@
 //	draw_set_colour(c_black)
 //	draw_sprite(sLookPoint, 0, global.playerLookX, global.playerLookY)
 //}
+
+//DrawUISizeableWindow(uiChoiceEdgeLeft, uiChoiceBody, uiChoiceEdgeRight , 0, 0, 100)
