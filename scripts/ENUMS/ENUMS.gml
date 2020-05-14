@@ -53,6 +53,10 @@ enum textNameType {
 	none, constant, specific	
 }
 
+enum moveVariables {
+	targetObject, targetX, targetY, moveSpeed, doAnimation, animation
+}
+
 enum gameStates {
 	none, inMenu, inCutscene, inTrail, inInteraction
 }

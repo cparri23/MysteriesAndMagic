@@ -22,8 +22,6 @@ switch lookType {
 		_targetLeft = x - sprite_xoffset
 		_targetBottom = _targetTop + sprite_height
 		_targetRight = _targetLeft + sprite_width
-		show_debug_message(_playerLookX)
-		show_debug_message(_playerLookY)
 		return point_in_rectangle(_playerLookX, _playerLookY, _targetLeft, _targetTop, 
 								  _targetRight, _targetBottom)
 	break

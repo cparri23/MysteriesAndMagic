@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "0d4022ff-0bed-4aae-bc92-74eddb70a6e6",
-            "Value": {
-                "id": "1fb854dd-f5d4-473c-a1a0-89e0e1c0a111",
-                "resourcePath": "objects\\DrawHandler\\DrawHandler.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0f17157a-485e-49c5-9bde-35f402ea48bc",
             "Value": {
                 "id": "23b3ee53-9991-4b17-ae9d-8cc62157b0d5",
@@ -228,6 +220,14 @@
                 "id": "5d789550-aa5b-4d18-b51a-38acccec172a",
                 "resourcePath": "views\\3c602bed-f6e9-4872-a6dd-67bcb88b1362.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "40098489-9634-4f84-a3e4-3d5ae42adfe5",
+            "Value": {
+                "id": "1fea667a-c1ba-4c1b-9234-2007934c65e1",
+                "resourcePath": "objects\\MoveHandler\\MoveHandler.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "6c831447-981c-49c6-9664-efa082560d33",
+            "Value": {
+                "id": "e9170f2d-9725-41bf-add8-1161566e2c39",
+                "resourcePath": "scripts\\MoveEvent_AddAnimation\\MoveEvent_AddAnimation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6d48be8e-6aa8-48db-b65e-6d14959e60b3",
             "Value": {
                 "id": "607783a4-e2e4-42e1-aa60-b0ed9b3eae4f",
@@ -423,6 +431,14 @@
             }
         },
         {
+            "Key": "715fb6e9-02a3-4200-b3ae-1242c34093b4",
+            "Value": {
+                "id": "1bdeb1e6-2782-4047-bc6f-e7be9faa584e",
+                "resourcePath": "scripts\\MoveEvent_End\\MoveEvent_End.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "77443d80-c2ac-4a38-9fda-6ac3285d4cd5",
             "Value": {
                 "id": "2688ffd4-faaa-4ab9-811d-49509d5bc390",
@@ -443,6 +459,14 @@
             "Value": {
                 "id": "f73d7e6a-94e5-4ea0-b8f4-c8672e4f9d51",
                 "resourcePath": "views\\7e5b8e0e-d0b3-4334-af11-6bcfc70337b0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8172eb47-d197-44b1-a4c8-7d3b5f6812c9",
+            "Value": {
+                "id": "b7aa114a-b099-45b1-9814-97228b30fd4c",
+                "resourcePath": "views\\8172eb47-d197-44b1-a4c8-7d3b5f6812c9.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -483,6 +507,14 @@
             "Value": {
                 "id": "6726e069-4172-4c66-b4a0-83bc15b7305b",
                 "resourcePath": "views\\91191a24-45a1-4260-838a-6c18114ac9b3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "93249a01-8771-4b2c-bdae-901650b960db",
+            "Value": {
+                "id": "87853e45-005e-4af5-812f-e48ab9ccba47",
+                "resourcePath": "views\\93249a01-8771-4b2c-bdae-901650b960db.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -578,7 +610,7 @@
             "Key": "a7c8ba89-5e0e-49d3-8df1-c7f752802cda",
             "Value": {
                 "id": "d5a84190-bc71-45ca-89e5-1372b3f87f15",
-                "resourcePath": "scripts\\CreateAniMoveEvent\\CreateAniMoveEvent.yy",
+                "resourcePath": "scripts\\CreateMoveEvent\\CreateMoveEvent.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -770,7 +802,7 @@
             "Key": "cbb2020d-e804-4cf0-ba5b-11b21e09c91a",
             "Value": {
                 "id": "d31abd16-c1da-438d-a711-f833a34655ed",
-                "resourcePath": "scripts\\UpdateAniMoveEvent\\UpdateAniMoveEvent.yy",
+                "resourcePath": "scripts\\UpdateMoveEvent\\UpdateMoveEvent.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1090,7 +1122,9 @@
         "54fb5d90-62ba-49d9-baaf-166aa24949c8",
         "e6813215-ae02-4c8d-9f87-2dbd1aad99ad",
         "a7c8ba89-5e0e-49d3-8df1-c7f752802cda",
+        "6c831447-981c-49c6-9664-efa082560d33",
         "cbb2020d-e804-4cf0-ba5b-11b21e09c91a",
+        "715fb6e9-02a3-4200-b3ae-1242c34093b4",
         "86419a36-ab50-4bee-aa2e-08469368e295",
         "b822511f-1567-4b76-9f10-9d94393da1e6",
         "f17b1652-11ab-4113-aa24-020483522dea",

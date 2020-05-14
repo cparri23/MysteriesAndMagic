@@ -5,16 +5,6 @@
     "name": "pEntity",
     "eventList": [
         {
-            "id": "08f246ca-04e2-4303-a6b9-b580ecdc6feb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "5a8aa9fd-2e86-4320-996b-b5abaded1ffc",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "9d2a8622-539a-4489-9050-758fa2d95695"
-        },
-        {
             "id": "7d28d47b-d996-4fd3-8643-bece66e5cd9d",
             "modelName": "GMEvent",
             "mvc": "1.0",

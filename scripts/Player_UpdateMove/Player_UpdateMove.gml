@@ -3,8 +3,13 @@ if(inputMagnitude > 0) {
 	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 	
 	direction = inputDirection;
-	x += hSpeed;
-	y += vSpeed;
+	var _target_X = x + hSpeed
+	var _target_Y = y + vSpeed
+	
+	if(place_free(_target_X, _target_Y)) {
+		x = _target_X;
+		y = _target_Y;
+	}
 	moveAnimationName = GetAnimationNameFromDirection()
 
 	if(moveAnimationName != activeAnimation) {

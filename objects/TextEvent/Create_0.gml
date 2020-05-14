@@ -1,5 +1,3 @@
-show_debug_message("create script for text event run")
-
 textData[textVariables.text] = EMPTY_STRING
 
 textData[textVariables.doDuration] = true

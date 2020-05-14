@@ -1,7 +1,7 @@
-evt_type = "MoveEvent"
-active = false
+moveData[moveVariables.targetObject] = self
+moveData[moveVariables.targetX] = 0
+moveData[moveVariables.targetY] = 0
+moveData[moveVariables.moveSpeed] = 10
 
-localFrame = 0
-ExhaustedDur = 0
-
-just_activated = false
+moveData[moveVariables.doAnimation] = false
+moveData[moveVariables.animation] = animationName.none

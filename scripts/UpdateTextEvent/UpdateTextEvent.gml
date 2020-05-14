@@ -32,9 +32,10 @@ if(!doneProgressingText) {
 				TextEvent_UpdateDuration()
 				dispLetter = 0
 			}
-		cursorExists = false
-		instance_destroy(cursor)
-		
+		if(cursorExists) {
+			cursorExists = false
+			instance_destroy(cursor)
+		}
 		}
 	}
 
