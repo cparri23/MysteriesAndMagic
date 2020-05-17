@@ -3,12 +3,12 @@
 ///@params nameData
 ///@params nameBank
 
-var _textEvent = argument0
-var _nameType = argument1
-var _nameData = argument2
+var _textEvent = argument[0]
+var _nameType = argument[1]
+var _nameData = argument[2]
 
-_textEvent.textData[textVariables.nameType] = argument1
-_textEvent.textData[textVariables.nameData] = argument2
+_textEvent.textData[textVariables.nameType] = argument[1]
+_textEvent.textData[textVariables.nameData] = argument[2]
 _textEvent.textData[textVariables.doName] = true
 
 if(argument_count > 3) {

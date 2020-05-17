@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0748eef6-335c-4ffe-84e8-0430390d3819",
+            "Value": {
+                "id": "248bc8d4-15c0-4d2b-a759-4b23aa48ab5f",
+                "resourcePath": "scripts\\StartMoveEvent\\StartMoveEvent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "074f6cdd-32bf-43de-bfac-5db0685ee0cf",
             "Value": {
                 "id": "1cf3ff7b-46f1-4ce6-903f-e7ca3da5b10d",
@@ -879,6 +887,14 @@
             }
         },
         {
+            "Key": "df00ee8c-9d62-411f-b4b5-b4d3c1a1d0ee",
+            "Value": {
+                "id": "64883bb0-a633-41e6-b7a8-19ac157593eb",
+                "resourcePath": "scripts\\MoveEvent_AddDirectionalAnimation\\MoveEvent_AddDirectionalAnimation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "df465659-e839-4898-99f8-ac24e814abae",
             "Value": {
                 "id": "f55d0d00-a048-47dd-9c97-56bab4ce70b5",
@@ -1123,6 +1139,8 @@
         "e6813215-ae02-4c8d-9f87-2dbd1aad99ad",
         "a7c8ba89-5e0e-49d3-8df1-c7f752802cda",
         "6c831447-981c-49c6-9664-efa082560d33",
+        "df00ee8c-9d62-411f-b4b5-b4d3c1a1d0ee",
+        "0748eef6-335c-4ffe-84e8-0430390d3819",
         "cbb2020d-e804-4cf0-ba5b-11b21e09c91a",
         "715fb6e9-02a3-4200-b3ae-1242c34093b4",
         "86419a36-ab50-4bee-aa2e-08469368e295",

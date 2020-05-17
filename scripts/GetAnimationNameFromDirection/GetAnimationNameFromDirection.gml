@@ -1,5 +1,7 @@
 var _eightTurnsFromEast
-_eightTurnsFromEast = direction / 45
+_eightTurnsFromEast = round(direction / 45)
+
+
 
 switch _eightTurnsFromEast {
 	case 0:

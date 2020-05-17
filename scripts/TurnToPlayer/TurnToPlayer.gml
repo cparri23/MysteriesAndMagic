@@ -5,5 +5,8 @@ var ang = 180 + point_direction(plyX, plyY, x, y)
 if (ang > 360) {
 	ang -= 360	
 }
-show_debug_message(ang)
-image_index = FindNearestIndex(frame_angles, ang)
+
+var _activeAnimation = animations[activeAnimation]
+var _angleData = _activeAnimation[frameDataVariables.angles]
+
+image_index = FindNearestIndex(_angleData, ang)
