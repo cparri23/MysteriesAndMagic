@@ -4,7 +4,6 @@
 
 TurnToPlayer()
 switch eventID {
-	
 	case 0:
 		show_debug_message("Viktor says hi!")
 		txt1 = CreateTextEvent(["Hey, Luna.", "Hi!"])

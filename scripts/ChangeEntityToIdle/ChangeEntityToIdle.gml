@@ -3,10 +3,10 @@
 
 switch idleType {
 	case animationIdleType.static:
-		activeAnimation = frameDataName.idle
+		activeAnimation = animationName.stillIdle
 		activeAnimationData = animations[activeAnimation]
-		activeAnimationSprite = activeAnimationData[frameDataVariables.sprite]
-		sprite_index = activeAnimationData[frameDataVariables.sprite]
+		activeAnimationSprite = activeAnimationData[animationVariables.sprite]
+		sprite_index = activeAnimationSprite
 		
 		if(argument_count > 0) {
 			image_index = argument[0]
@@ -17,14 +17,14 @@ switch idleType {
 		AnimationHandler_RemoveSelf()
 	break
 	case animationIdleType.directional:
-		activeAnimation = frameDataName.idle
+		activeAnimation = animationName.stillIdle
 		activeAnimationData = animations[activeAnimation]
-		activeAnimationSprite = activeAnimationData[frameDataVariables.sprite]
-		activeAnimationAngles = activeAnimationData[frameDataVariables.angles]
-		
+		activeAnimationSprite = activeAnimationData[animationVariables.sprite]
+		activeAnimationAngles = activeAnimationData[animationVariables.frameAngles]
+		show_debug_message(activeAnimationAngles)
 		sprite_index = activeAnimationSprite
 		image_index = FindNearestIndex(activeAnimationAngles, direction)
-		
+	
 		//Should still work if not in the list
 		AnimationHandler_RemoveSelf()
 	break

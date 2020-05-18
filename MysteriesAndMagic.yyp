@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "2d10e102-401c-4557-86a0-6ae909a6aeb4",
+            "Value": {
+                "id": "932255c3-28b5-4156-ab1d-ab8983be593e",
+                "resourcePath": "scripts\\AddIdleSpriteToEntity\\AddIdleSpriteToEntity.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2f222687-d780-49ee-81bf-74d4b4889808",
             "Value": {
                 "id": "4ff0461b-250d-4a94-80a6-95a75407b85c",
@@ -871,6 +879,14 @@
             }
         },
         {
+            "Key": "d66de1b5-cee2-4a70-8efb-53bd58f1300b",
+            "Value": {
+                "id": "e2c21e82-0cd7-40d7-b5f4-062a1dc8f1b3",
+                "resourcePath": "scripts\\AddIdleAnimationToEntity\\AddIdleAnimationToEntity.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d886eb8d-cbcc-4720-9bb8-df47c6ac784e",
             "Value": {
                 "id": "298f973e-8382-4dfb-8613-149321a78a39",
@@ -1125,7 +1141,9 @@
         "51a78c2a-0567-4b6e-ae06-ed1df9123f02",
         "6bd1e681-d426-43f9-95bc-b6141b945cbb",
         "a8221a95-6aa4-44f0-9b68-7a13990a2c46",
+        "d66de1b5-cee2-4a70-8efb-53bd58f1300b",
         "94fd0e8a-6cb2-4e44-b092-fb38f3ca7e8d",
+        "2d10e102-401c-4557-86a0-6ae909a6aeb4",
         "28387c8c-5de4-4c4a-bd8f-1057021ab5fa",
         "fe445ba5-9553-410c-8e0d-7f41f07da8f7",
         "c1c4efe1-922a-409c-ad83-72b70e357b96",

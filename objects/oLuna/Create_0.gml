@@ -9,7 +9,9 @@ stopMe = false
 lookDistance = 20
 var _runFrameDuration = 75
 
-AddSpriteToEntity(frameDataName.idle, sLunaIdle, ANGLES_EIGHT)
+
+
+AddIdleSpriteToEntity(sLunaIdle, ANGLES_EIGHT)
 idleType = animationIdleType.directional
 
 AddAnimationToEntity(animationName.runE, sLunaRunE, animationLoopType.forward, animationDurationType.constant, _runFrameDuration)
@@ -20,5 +22,7 @@ AddAnimationToEntity(animationName.runW, sLunaRunW, animationLoopType.forward, a
 AddAnimationToEntity(animationName.runSW, sLunaRunSW, animationLoopType.forward, animationDurationType.constant, _runFrameDuration)
 AddAnimationToEntity(animationName.runS, sLunaRunS, animationLoopType.forward, animationDurationType.constant, _runFrameDuration)
 AddAnimationToEntity(animationName.runSE, sLunaRunSE, animationLoopType.forward, animationDurationType.constant, _runFrameDuration)
+
+show_debug_message(animations[animationName.idle])
 
 InitalizeSpecifcEntityVariables()

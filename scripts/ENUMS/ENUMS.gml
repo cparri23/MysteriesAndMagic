@@ -1,6 +1,6 @@
 enum animationName {
 	none,
-	idle,
+	idle, stillIdle, 
 	custom_1, custom_2, custom_3,
 	runE, runNE, runN, runNW, runW, runSW, runS, runSE
 }
@@ -13,12 +13,8 @@ enum frameDataVariables {
 	sprite, angles
 }
 
-enum frameAngleTypes {
-	none, diagonals, cardinal, eight
-}
-
 enum animationVariables {
-	sprite, loopType, frameDurationType, frameDurationData, 
+	sprite, loopType, frameDurationType, frameDurationData, frameAngles
 }
 
 enum animationLoopType {

@@ -1,5 +1,7 @@
 event_inherited();
 
-AddSpriteToEntity(frameDataName.idle, sSwordsman, ANGLES_DIAGONAL)
+AddIdleSpriteToEntity(sSwordsman, ANGLES_DIAGONAL)
+defaultDirection = 135
+direction = defaultDirection
 
 InitalizeSpecifcEntityVariables();

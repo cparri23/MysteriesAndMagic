@@ -5,10 +5,10 @@
 
 var _frameData = []
 
-_frameData[frameDataVariables.sprite] = argument1
+_frameData[animationVariables.sprite] = argument1
 
 if(argument_count > 2) {
-	_frameData[frameDataVariables.angles] = argument2
+	_frameData[animationVariables.frameAngles] = argument2
 }
 
 
