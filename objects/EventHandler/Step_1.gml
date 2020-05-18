@@ -9,6 +9,7 @@ if(ds_queue_size(global.eventQueue) > 0 && !global.eventInProgress) {
 		with oLuna {
 			ChangeEntityToIdle()	
 		}
+		global.playerInEvent = true
 	}
 	
 	global.eventInProgress = _waitForEvent 

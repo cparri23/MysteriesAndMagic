@@ -22,7 +22,6 @@ if(!doneProgressingText) {
 					exit
 				}
 				else {
-					show_debug_message("dialogue done progressing")
 					doneProgressingText = true	
 				}
 			}

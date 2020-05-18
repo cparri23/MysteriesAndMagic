@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "ba5c2eeb-6020-4572-8c9e-9beca70d6eae",
+            "Value": {
+                "id": "9fb55c68-08e2-409f-914b-15f175c9d19a",
+                "resourcePath": "scripts\\CreateMoveEvent_Vector\\CreateMoveEvent_Vector.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bf9e883e-1b0d-49e9-bc83-7862506f6fe2",
             "Value": {
                 "id": "5060781e-9163-428d-8342-db0ad51e6fb6",
@@ -1138,6 +1146,7 @@
         "54fb5d90-62ba-49d9-baaf-166aa24949c8",
         "e6813215-ae02-4c8d-9f87-2dbd1aad99ad",
         "a7c8ba89-5e0e-49d3-8df1-c7f752802cda",
+        "ba5c2eeb-6020-4572-8c9e-9beca70d6eae",
         "6c831447-981c-49c6-9664-efa082560d33",
         "df00ee8c-9d62-411f-b4b5-b4d3c1a1d0ee",
         "0748eef6-335c-4ffe-84e8-0430390d3819",

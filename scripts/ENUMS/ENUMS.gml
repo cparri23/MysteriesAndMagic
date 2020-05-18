@@ -55,7 +55,7 @@ enum textNameType {
 }
 
 enum moveVariables {
-	targetObject, targetX, targetY, moveSpeed, doAnimation, animation, doDirectionalAnimation
+	targetObject, targetX, targetY, moveSpeed, moveDirection, moveDistance, doAnimation, animation, doDirectionalAnimation, vectorInput
 }
 
 enum gameStates {

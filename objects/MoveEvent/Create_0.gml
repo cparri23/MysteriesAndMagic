@@ -5,3 +5,4 @@ moveData[moveVariables.moveSpeed] = 10
 
 moveData[moveVariables.doAnimation] = false
 moveData[moveVariables.animation] = animationName.none
+moveData[moveVariables.vectorInput] = false

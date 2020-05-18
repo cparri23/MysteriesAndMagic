@@ -9,7 +9,6 @@ var _textData_text = argument0
 textBox.textData[textVariables.text] = _textData_text
 
 if(ds_queue_size(global.textQueue) == 0) {
-	show_debug_message("setting player to in event")
 	global.playerInEvent = true			
 }
 
