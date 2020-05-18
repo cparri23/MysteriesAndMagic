@@ -1,7 +1,7 @@
 event_inherited();
 
 AddIdleSpriteToEntity(sSwordsman, ANGLES_DIAGONAL)
-defaultDirection = 135
+defaultDirection = 225
 direction = defaultDirection
 
 InitalizeSpecifcEntityVariables();

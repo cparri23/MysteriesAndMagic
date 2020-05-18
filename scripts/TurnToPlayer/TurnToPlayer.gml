@@ -9,4 +9,6 @@ if (ang > 360) {
 var _activeAnimation = animations[activeAnimation]
 var _angleData = _activeAnimation[animationVariables.frameAngles]
 
+direction = ang
+
 image_index = FindNearestIndex(_angleData, ang)
