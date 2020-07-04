@@ -24,6 +24,11 @@ if(ds_queue_size(global.eventQueue) > 0 && !global.eventInProgress) {
 			}
 			ds_queue_enqueue(global.moveQueue, _event)
 		break
+		case eventType.createObject:
+			with(_event) {
+				StartCreateObjectEvent()
+			}
+		break
 	}
 	
 	if(!_waitForEvent) {

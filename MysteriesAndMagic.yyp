@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1bd20235-c312-4666-8b7c-a080001968d6",
+            "Value": {
+                "id": "bb919ec5-3f68-496c-8c81-65bfd6e9fc85",
+                "resourcePath": "scripts\\DeleteCreateObjectEvent\\DeleteCreateObjectEvent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "27b7a77f-f35a-4d03-aa0a-ef5bc4e5fdc8",
             "Value": {
                 "id": "84807355-aaaf-488b-8097-6319d1866289",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "64bf7c6c-1e68-43c8-bc1c-6d5fdd0c5a65",
+            "Value": {
+                "id": "bb55cc53-bfbf-43f8-b357-811dc90d5a83",
+                "resourcePath": "scripts\\StartCreateObjectEvent\\StartCreateObjectEvent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6915d46d-c632-4a82-963d-1bdfb503ab43",
             "Value": {
                 "id": "6e1df353-d206-4c76-a097-ae3143759be7",
@@ -516,6 +532,14 @@
                 "id": "0b1f69f7-eeaa-4284-a4b7-66a878f2f195",
                 "resourcePath": "sprites\\uiTextBox\\uiTextBox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "911525eb-6ef9-4984-86ea-7da0071a96ce",
+            "Value": {
+                "id": "8a427772-9139-4f37-9c87-d1c9a80d68b4",
+                "resourcePath": "views\\911525eb-6ef9-4984-86ea-7da0071a96ce.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -831,11 +855,27 @@
             }
         },
         {
+            "Key": "cc94484a-86a8-4bb2-a55f-1ad1dd738d5c",
+            "Value": {
+                "id": "80483057-e934-4970-a970-e0a060134ccb",
+                "resourcePath": "scripts\\CreateCreateObjectEvent\\CreateCreateObjectEvent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "b0dd8635-c41c-4315-972a-107941fea7eb",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd8d67cb-0c53-4b7e-a6f4-f5a696b5654e",
+            "Value": {
+                "id": "78aa5d03-d92a-4592-a7c9-fb1b65d711ba",
+                "resourcePath": "objects\\PassiveEventHandler\\PassiveEventHandler.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -884,6 +924,14 @@
                 "id": "e2c21e82-0cd7-40d7-b5f4-062a1dc8f1b3",
                 "resourcePath": "scripts\\AddIdleAnimationToEntity\\AddIdleAnimationToEntity.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d7acdfe9-1918-4d2a-a42a-17f044b5c1d5",
+            "Value": {
+                "id": "400cfdb2-a58f-4429-8f4c-f1690064eb8a",
+                "resourcePath": "objects\\CreateObjectEvent\\CreateObjectEvent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1170,6 +1218,9 @@
         "0748eef6-335c-4ffe-84e8-0430390d3819",
         "cbb2020d-e804-4cf0-ba5b-11b21e09c91a",
         "715fb6e9-02a3-4200-b3ae-1242c34093b4",
+        "64bf7c6c-1e68-43c8-bc1c-6d5fdd0c5a65",
+        "cc94484a-86a8-4bb2-a55f-1ad1dd738d5c",
+        "1bd20235-c312-4666-8b7c-a080001968d6",
         "86419a36-ab50-4bee-aa2e-08469368e295",
         "b822511f-1567-4b76-9f10-9d94393da1e6",
         "f17b1652-11ab-4113-aa24-020483522dea",

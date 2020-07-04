@@ -59,5 +59,5 @@ enum gameStates {
 }
 
 enum eventType {
-	text, move
+	text, move, createObject
 }	

@@ -17,7 +17,6 @@ dispLetter = 0
 dispPage = 0
 timeOnCurrentLetter = 0
 letterDuration = 0 
-bufferEnter = false
 doneProgressingText = false
 
 textBackSprite = uiTextBox

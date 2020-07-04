@@ -1,7 +1,7 @@
 global.eventQueue = ds_queue_create()
 global.textQueue = ds_queue_create()
 global.moveQueue = ds_queue_create()
-global.concurrentEvents = ds_map_create()
+global.eventObjects = ds_map_create()
 
 global.eventInProgress = false
 global.evt_DrawTextBack = false

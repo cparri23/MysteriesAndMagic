@@ -21,7 +21,6 @@ switch idleType {
 		activeAnimationData = animations[activeAnimation]
 		activeAnimationSprite = activeAnimationData[animationVariables.sprite]
 		activeAnimationAngles = activeAnimationData[animationVariables.frameAngles]
-		show_debug_message("direction idle set")
 		sprite_index = activeAnimationSprite
 		image_index = FindNearestIndex(activeAnimationAngles, direction)
 	
